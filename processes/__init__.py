@@ -1,0 +1,3 @@
+import ps
+
+plugins = [ps]
