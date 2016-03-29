@@ -221,8 +221,7 @@ And the output file in the Puppet DSL
 
 And the file after applying the manifest:
 
-<code>
-
+```
 # Managed by Puppet
 global_defs {
   router_id berlin_lb10
@@ -342,4 +341,4 @@ group 10.0.0.201_3306 {
       connect_timeout 3
     }
   }
-</code>
+```
