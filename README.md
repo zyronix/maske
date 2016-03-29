@@ -49,7 +49,8 @@ This is tested for ubuntu 14.04
     2016-03-29 23:09:07,289 INFO  main: Done
 
 The file which was analysed:
-<code>
+
+```
 global_defs {
 	router_id berlin_lb10
 }
@@ -130,7 +131,7 @@ virtual_server 10.0.0.201 3306 {
                 }
         }
 }
-</code>
+```
 
 And the output file in the Puppet DSL
 
@@ -221,6 +222,7 @@ And the output file in the Puppet DSL
 And the file after applying the manifest:
 
 <code>
+
 # Managed by Puppet
 global_defs {
   router_id berlin_lb10
